@@ -1,7 +1,7 @@
-# Py_APdf a pdf manpulating package v0.0.1:-
+# PyAPdf a pdf manpulating package v0.0.1:-
 
-#### NOTE: Py_APdf is in beta version.
-## Methods inside Py_APdf Read class :-
+#### NOTE: PyAPdf is in beta version.
+## Methods inside PyAPdf Read class :-
 
 * read().
 * num_of_pages().
@@ -17,16 +17,16 @@
 #####Run the following command in cmd to install krtana.
 
     
-    pip install Py_APdf
+    pip install PyAPdf
 
 
 # Example:-
 
-## Pdf to Audio using Py_APdf.
+## Pdf to Audio using PyAPdf.
 
-    import Py_APdf
+    import PyAPdf
 
-    pdf = Py_APdf.Read('filename.pdf') # the path or filename of the pdf.
+    pdf = PyAPdf.Read('filename.pdf') # the path or filename of the pdf.
 
     pdf.read(10) # Must pass the page number that you want to read.
 
@@ -46,23 +46,23 @@
 
 ## Total pages in a pdf using PyAPDF:
 
-    import Py_APdf
+    import PyAPdf
 
-    pdf = Py_APdf.Read('filename.pdf') # the path or filename of the pdf.
+    pdf = PyAPdf.Read('filename.pdf') # the path or filename of the pdf.
     pdf.num_of_pages() # returns the number of pages.
 
 ## Pdf Information using PyAPDF:
 
-    import Py_APdf
+    import PyAPdf
 
-    pdf = Py_APdf.Read('filename.pdf') # the path or filename of the pdf.
+    pdf = PyAPdf.Read('filename.pdf') # the path or filename of the pdf.
     pdf.info() # returns the documents information. 
 
 ## Take a specific page from pdf using PyAPdf:
 
-    import Py_APdf
+    import PyAPdf
 
-    pdf = Py_APdf.Read('filename.pdf') # the path or filename of the pdf.
+    pdf = PyAPdf.Read('filename.pdf') # the path or filename of the pdf.
     pagenumber = 10
     pdf.page(pagenumber)# returns the specified page.
 
@@ -76,9 +76,9 @@
 
 ## Get the page number of a specific page using PyAPdf:
 
-    import Py_APdf
+    import PyAPdf
 
-    pdf = Py_APdf.Read('filename.pdf') # the path or filename of the pdf.
+    pdf = PyAPdf.Read('filename.pdf') # the path or filename of the pdf.
     page = pdf.page(10)
     pdf.pageNum(page)
 
@@ -92,9 +92,9 @@
 
 ## Text Extraction from pdf using PyAPdf:
 
-    import Py_APdf
+    import PyAPdf
 
-    pdf = Py_APdf.Read('filename.pdf') # the path or filename of the pdf.
+    pdf = PyAPdf.Read('filename.pdf') # the path or filename of the pdf.
     pagenumber = 10
     pdf.text(pagenumber)
 
