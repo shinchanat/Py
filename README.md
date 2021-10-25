@@ -1,4 +1,4 @@
-# PyAPdf a pdf manpulating package v0.0.1:-
+# PyAPdf a pdf manipulating package v0.0.1:-
 
 #### NOTE: PyAPdf is in beta version.
 ## Methods inside PyAPdf Read class :-
