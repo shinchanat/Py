@@ -14,7 +14,7 @@
 # Installing process:-
 
 * Make sure you have python3 installed in your system.
-#####Run the following command in cmd to install krtana.
+##### Run the following command in cmd to install krtana.
 
     
     pip install PyAPdf
