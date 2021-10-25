@@ -34,7 +34,9 @@
     """parameter of read  methos:
 
     read(self,pageno , voice = 'f',speed = 0):
-
+    
+    read is a tts method.
+    
     pageno:int --> 
     voice --> pass 'm' for male and 'f' for female voice.
               Defults to 'f'.
