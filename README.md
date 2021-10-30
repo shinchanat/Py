@@ -1,6 +1,6 @@
 # PyReader a pdf manpulating package v0.0.1:-
 
-###PyReader will be uploaded soon to Pypi.
+### PyReader will be uploaded soon to Pypi.
 
 ## Methods inside PyReader's Read class :-
 
