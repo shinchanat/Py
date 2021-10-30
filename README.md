@@ -1,4 +1,4 @@
-# PyReader a pdf manpulating package v0.0.1:-
+# PyReader a pdf and text file manpulating package v0.0.1:-
 
 ### PyReader will be uploaded soon to Pypi.
 
