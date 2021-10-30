@@ -33,14 +33,14 @@
     pdf = PyReader.Read('filename\location of the pdf')
     pdf.read()
 
-### PyReader reads the first page by default , pass the page number in the read method for reading a perticular page.
+#### PyReader reads the first page by default , pass the page number in the read method for reading a perticular page.
 
     import PyReader
 
     pdf = PyReader.Read('filename\location of the pdf.')
     pdf.read(pageno = 10)
 
-### Tts engine voice is default to female , pass 'm' in the read method to change the engine voice.
+#### Tts engine voice is default to female , pass 'm' in the read method to change the engine voice.
 {'m' : male , 'f' : female} pass any of this to change the tts engine voice
 
     import PyReader
@@ -48,7 +48,7 @@
     pdf = PyReader.Read('filename\location of the pdf.')
     pdf.read(voice = 'm')
 
-### Save the tts as mp3.
+## Save the tts as mp3.
 
     import PyReader
 
@@ -59,7 +59,7 @@
     # saves the audio file in the current directory as pdf_audio.mp3 .
 
 
-### Save and read the text from pdf.
+## Save and read the text from pdf.
 
     import PyReader
 
@@ -67,14 +67,14 @@
     pdf.read(save = 'sr')
 
 
-### Change default filename.
+## Change default filename.
 
     import PyReader
 
     pdf = PyReader.Read('filename\location of the pdf.')
     pdf.read(save = True,filename = 'any_name.mp3')
 
-### Extract text from pdf.
+## Extract text from pdf.
 
     import PyReader
 
@@ -83,17 +83,5 @@
 
     print(extracted_txt)
 
-### PyReader extracts text from first page by default , pass the page number to extract text from a perticular page.
+#### PyReader extracts text from first page by default , pass the page number to extract text from a perticular page.
 
-## Reading the text  passed in input function.
-
-    import PyReader
-
-    pdf = PyReader.Read()
-    name = input('Enter your name :')
-    pdf.readtxt(name,voice = 'm')
-
-    """{m : male ,f : female} pass any of these to change the voice of the engine.
-        defaults to female."""
-
-### 
