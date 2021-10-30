@@ -18,7 +18,7 @@
 
 * Make sure you have python3 installed in your system.
 
-#####Run the following command in cmd to install PyReader.
+##### Run the following command in cmd to install PyReader.
 
     
     pip install PyReader
@@ -41,8 +41,7 @@
     pdf.read(pageno = 10)
 
 ### Tts engine voice is default to female , pass 'm' in the read method to change the engine voice.
-m : male
-f : female
+{'m' : male , 'f' : female} pass any of this to change the tts engine voice
 
     import PyReader
 
