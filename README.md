@@ -2,7 +2,7 @@
 
 ###PyReader will be uploaded soon to Pypi.
 
-## Methods inside Py_APdf Read class :-
+## Methods inside PyReader's Read class :-
 
 * read().
 * readtxt().
