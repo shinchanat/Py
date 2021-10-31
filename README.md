@@ -1,5 +1,5 @@
 # PyReader a pdf and text file to text-to-speech converter package v0.0.1:-
-#### Note PyReader won't work on python 3.10 , works on 3.9.6 or lesser version.
+#### Note : PyReader needs latest version of pyttsx3 and PyPDF2. 
 ### PyReader will be uploaded soon to Pypi.
 
 
