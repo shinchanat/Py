@@ -29,7 +29,7 @@ Now PyReader can even read both pdf and text file.
 
 # Example:-
 
-## Reading a pdf and converting to tts.
+## Reading a pdf or text file and converting to tts.
 
     import PyReader
 
