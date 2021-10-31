@@ -2,6 +2,7 @@
 #### Note PyReader won't work on python 3.10 , works on 3.9.6 or lesser version.
 ### PyReader will be uploaded soon to Pypi.
 
+
 Now PyReader can even read both pdf and text file.
 
 ## Methods inside PyReader Read class :-
@@ -32,14 +33,14 @@ Now PyReader can even read both pdf and text file.
 
     import PyReader
 
-    pdf = PyReader.Read('filename\location of the pdf')
+    pdf = PyReader.Read('filename\location of the pdf or text file')
     pdf.read()
 
 ## PyReader reads the first page by default , pass the page number in the read method for reading a perticular page.
 
     import PyReader
 
-    pdf = PyReader.Read('filename\location of the pdf.')
+    pdf = PyReader.Read('filename\location of the pdf or text file.')
     pdf.read(pageno = 10)
 
 ## Tts engine voice is default to female , pass 'm' in the read method to change the engine voice.
@@ -47,21 +48,21 @@ Now PyReader can even read both pdf and text file.
 
     import PyReader
 
-    pdf = PyReader.Read('filename\location of the pdf.')
+    pdf = PyReader.Read('filename\location of the pdf or text file.')
     pdf.read(voice = 'm')
 
 ## Change the speech rate.
 
     import PyReader
         
-    pdf = PyReader.Read('filename\location of the pdf.')
+    pdf = PyReader.Read('filename\location of the pdf or text file.')
     pdf.read(speech_rate = -10)
 
 ## Save the tts as mp3.
 
     import PyReader
 
-    pdf = PyReader.Read('filename\location of the pdf.')
+    pdf = PyReader.Read('filename\location of the pdf or text file.')
     pdf.read(save = True)
 
 
@@ -72,7 +73,7 @@ Now PyReader can even read both pdf and text file.
 
     import PyReader
 
-    pdf = PyReader.Read('filename\location of the pdf.')
+    pdf = PyReader.Read('filename\location of the pdf or text file.')
     pdf.read(save = 'sr')
 
 
@@ -80,14 +81,14 @@ Now PyReader can even read both pdf and text file.
 
     import PyReader
 
-    pdf = PyReader.Read('filename\location of the pdf.')
+    pdf = PyReader.Read('filename\location of the pdf or text file.')
     pdf.read(save = True,filename = 'any_name.mp3')
 
 ## Extract text from pdf.
 
     import PyReader
 
-    pdf = PyReader.Read('filename\location of the pdf.')
+    pdf = PyReader.Read('filename\location of the pdf or text file.')
     extracted_txt = pdf.pdf_text()
 
     print(extracted_txt)
@@ -98,7 +99,7 @@ Now PyReader can even read both pdf and text file.
 
     import PyReader
 
-    pdf = PyReader.Read()
+    pdf = PyReader.Read('filename\location of the pdf or text file.)
     name = input('Enter your name :')
     pdf.readtxt(name,voice = 'm')
 
