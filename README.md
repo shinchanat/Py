@@ -1,5 +1,5 @@
 # PyReader a pdf and text file manpulating package v0.0.1:-
-#### Note PyReader won't work on python 3.10
+#### Note PyReader won't work on python 3.10 , work on 3.9.6 or lesser version.
 ### PyReader will be uploaded soon to Pypi.
 
 Now PyReader can even read both pdf and text file.
