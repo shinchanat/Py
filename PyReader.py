@@ -28,7 +28,7 @@ __all__ = ['read','readtxt','pdf_info','pdf_pages',
 import PyPDF2
 import pyttsx3
 
-driver = pyttsx3.init()#initalizing tts driver from pyttsx3.
+driver = pyttsx3.init()#initalizing tts engine from pyttsx3.
 voices = driver.getProperty('voices')#taking the voice property
 rate = driver.getProperty('rate')#taking the rate property.
 default_volume = driver.getProperty('volume')
