@@ -49,7 +49,7 @@ class PyReaderErrors:
             return ValueError("pageno takes a text containing page,but got a empty page.")
         
 
-class Read:
+class Open:
 
     def __init__(self,filename:str):
         
