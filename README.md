@@ -13,7 +13,7 @@ Now PyReader can even read both pdf and text file.
 * pdf_pageNum().
 * pdf_page().
 * pdf_info().
-* pdf_text().
+* print().
 
 
 
@@ -89,7 +89,7 @@ Now PyReader can even read both pdf and text file.
     import PyReader
 
     pdf = PyReader.Open('filename\location of the pdf or text file.')
-    extracted_txt = pdf.pdf_text()
+    extracted_txt = pdf.print()
 
     print(extracted_txt)
 
