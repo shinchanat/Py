@@ -23,8 +23,7 @@ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 """
 
 
-__all__ = ['read','readtxt','pdf_info','pdf_pages',
-           'pdf_pageNum','pdf_page','pdf_txt']
+__all__ = ['read','readtxt','print']
 
 version = '0.1.0'
 
