@@ -30,7 +30,7 @@
 
 #### NOTE : It raises an error if the given page is empty.
 
-### How to change tts reader voice:-
+## How to change tts reader voice:-
     
     import PyReader
 
@@ -40,7 +40,7 @@
 #### voice is an optional parameter set default to 'f' female version,pass 'm' for male version.
 #### It raises an error if anyother argument is passed except 'f' & 'm'.
 
-### How to change to volume:-
+## How to change to volume:-
 
     import PyReader
     
@@ -49,7 +49,7 @@
 
 #### volume is an optional parameter set default to zero,here zero represents no change in volume.
 
-### How to change the tts reading speed:-
+## How to change the tts reading speed:-
 
     import PyReader
 
@@ -58,7 +58,7 @@
 
 #### speech_rate is an optional parameter set default to zero,like volume parameter here zero represents no change in speech_rate.
 
-### How to save readed page as a audio:-
+## How to save readed page as a audio:-
 
     import PyReader
 
@@ -68,7 +68,7 @@
 #### save is an optional parameter set default to False,set to True to save the audio. while saveing it won't read anything.
 #### Note: It saves the audio as 'PyReader_audio.mp3' in the current directory.
 
-### How to change the audio filename while saving:-
+## How to change the audio filename while saving:-
 
     import PyReader
 
@@ -77,7 +77,7 @@
 
 #### it save the audio as 'any_name.mp3' in the current directory.
 
-### How to read a text:-
+## How to read a text:-
 
     import PyReader
     
@@ -85,7 +85,7 @@
 
 #### NOTE : All the parameter used in read method can be in readtxt method also.
 
-### How to print the extracted text on screen.
+## How to print the extracted text on screen.
 
     import PyReader
 
