@@ -30,8 +30,6 @@ tts_voices = tuple(tts_engine.getProperty('voices'))#storing the text-to-speech 
 tts_speech_rate = tts_engine.getProperty('rate')#storing the text-to-speech rate property in rate variable.
 tts_default_volume = tts_engine.getProperty('volume')#storing
 
-__filetypes__ = ('txt','pdf','jpg','jpeg','png')
-
 def voice_error(voice):
         
         if type(voice) == str:
@@ -51,13 +49,13 @@ class open:
             
         self.id = filename[-3:]#for knowing which filetype is passed to the constructor's filename argument.
         
-        if self.id in __filetypes__:
+        if self.id == "pdf":
             self.pdf = PyPDF2.PdfFileReader(filename)#initializing the PdfFileReader class object.
             
-        elif self.id in __filetypes__:
+        elif self.id == "txt":
             self.file = open(filename,'r')
 
-        elif self.id in __file_type__:
+        elif self.id == "png":
                 print("This is a future update.")
             
         else:
