@@ -1,4 +1,4 @@
-# PyReader Version 0.3.0:-
+# PyReader Version 0.3.1:-
 * Pyreader is a python package used for reading pdf and text files by applying text-to-speech.
 
 # PyReader Open class:-
@@ -9,13 +9,13 @@
     
     from PyReader import*
     
-    file = open('filename with extension')
+    file = Open('filename with extension')
 
 ## How use tts to read the file:-
 
     from PyReader import*
 
-    file = open('filename with extension')
+    file = Open('filename with extension')
     file.read()
 
 #### It doesn't returns anything ,it just reads the page from the file using tts
@@ -25,8 +25,8 @@
 
     from PyReader import*
     
-    file = open('filename with extension')
-    file.read(pageno = 'any_page_no')
+    file = Open('filename with extension')
+    file.read(pgno = 'any_page_no')
 
 #### NOTE : It raises an error if the given page is empty.
 
@@ -34,7 +34,7 @@
     
     from PyReader import*
 
-    file = open('filename with extension')
+    file = Open('filename with extension')
     file.read(voice = 'm')
 
 #### voice is an optional parameter set default to 'f' female version,pass 'm' for male version.
@@ -44,8 +44,8 @@
 
     from PyReader import*
     
-    file = open('filename with extension')
-    file.read(volume = 'pass_a_integer_value')
+    file = Open('filename with extension')
+    file.read(vol = 'pass_a_integer_value')
 
 #### volume is an optional parameter set default to zero,here zero represents no change in volume.
 
@@ -53,7 +53,7 @@
 
     from PyReader import*
 
-    file = open('filename with extension')
+    file = Open('filename with extension')
     file.read(speech_rate = 'pass_a_integer_value')
 
 #### speech_rate is an optional parameter set default to zero,like volume parameter here zero represents no change in speech_rate.
@@ -62,7 +62,7 @@
 
     from PyReader import*
 
-    file = open('filename with extension')
+    file = Open('filename with extension')
     file.read(save = True)
 
 #### save is an optional parameter set default to False,set to True to save the audio. while saveing it won't read anything.
@@ -72,7 +72,7 @@
 
     from PyReader import*
 
-    file = open('filename with extension')
+    file = Open('filename with extension')
     file.read(save = True,filename = 'any_name.mp3')
 
 #### it save the audio as 'any_name.mp3' in the current directory.
@@ -87,13 +87,13 @@
 
     from PyReader import*
 
-    file = open('filename with extension')
+    file = Open('filename with extension')
     print(file.content())
 
 #### It prints the first page on screen by default. use the pgno parameter to print the text on screen from a perticular page.
 #### exmaple:
     
-    file.content(pageno = 'any_page_number')#pageno should be an integer
+    file.content(pgno = 'any_page_number')#pageno should be an integer
 
 
 #### Note : It returns the extracted text from pdf file and works only for pdf file.
