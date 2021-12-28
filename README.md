@@ -1,4 +1,4 @@
-# PyReader Version 0.3.1:-
+# PyReader Version 0.4.0:-
 * Pyreader is a python package used for reading pdf and text files by applying text-to-speech.
 
 # PyReader Open class:-
